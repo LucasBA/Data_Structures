@@ -26,6 +26,7 @@ void insertion_sort(){
 
 
 int main(){
+    std::ios_base::sync_with_stdio(false) 
     insertion_sort();
     return 0;
 }
